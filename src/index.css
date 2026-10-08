@@ -1,1 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=DM+Mono:wght@400;500&family=Shrikhand&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --color-ink: #000000;
+  --color-ganache: #1f150c;
+  --color-cocoa: #412d15;
+  --color-cream: #e1dcc9;
+
+  --font-display: "Shrikhand", serif;
+  --font-body: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+}
